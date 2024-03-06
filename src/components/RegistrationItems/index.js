@@ -41,7 +41,7 @@ const RegistrationItems = () => {
       </div>
       {showUlElement && (
         <ul>
-          {eventsList.slice(0, eventsList.length - 1).map((each) => (
+          {eventsList.slice(0, eventsList.length).map((each) => (
             <EventItem single={each} key={each.id} />
           ))}
         </ul>

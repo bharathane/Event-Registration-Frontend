@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# ![WebApp](https://res.cloudinary.com/dr2jqbir9/image/upload/v1709705384/Event-Registration-Assignment_fuxndt.png)
+# Event Registration Form
+<table>
+<tr>
+<td>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  
+The event registration form is a user-friendly and efficient tool designed to streamline the process of signing up for an upcoming event. This dynamic form not only captures essential attendee information but also boasts advanced features to enhance the overall experience.
 
-## Available Scripts
+Upon submission of the registration form, a confirmation email is automatically generated and sent to the registrant, ensuring they have a record of their successful registration. This email includes event type, a personalized confirmation message, and any additional information deemed necessary.
 
-In the project directory, you can run:
+Furthermore, the registration information is seamlessly compiled into a centralized database, allowing organizers to access and manage a comprehensive list of all events. This list can be easily navigated, and exported for organizational purposes. The real-time functionality ensures that event organizers can stay up-to-date with the latest registrations, making it a valuable tool for planning and executing successful events.
 
-### `npm start`
+With a user-friendly interface, automated email confirmations, and a comprehensive registration list, this event registration form is the ideal solution for both event organizers and attendees, providing a smooth and organized experience from registration to attendance.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+</td>
+</tr>
+</table>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Demo
+Here is a working live demo :  https://event-registration-frontend.vercel.app/
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## [Usage](https://event-registration-frontend.vercel.app/) 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Development
+Want to contribute? Great!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To fix a bug or enhance an existing module, follow these steps:
 
-### `npm run eject`
+- Fork the repo
+- Create a new branch (`git checkout -b improve-feature`)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (`git commit -am 'Improve feature'`)
+- Push to the branch (`git push origin improve-feature`)
+- Create a Pull Request 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Built with 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [React Js](https://www.w3schools.com/REACT/DEFAULT.ASP) - React is a Popular JavaSript library used for build SinglePage applications.
+- [CSS](https://www.w3schools.com/css/) - CSS used for styling and responsiveness
+- [react-router-dom](https://www.w3schools.com/react/react_router.asp) - It is used for page navigations.

@@ -1,0 +1,59 @@
+li {
+  list-style: none;
+  height: 30vh;
+  width: 28vw;
+  background-color: rgb(91, 147, 192);
+  color: rgb(255, 252, 252);
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.registration-heading {
+  font-size: 20px;
+  font-family: "Roboto";
+}
+span {
+  font-size: 18px;
+  font-family: "Roboto";
+  color: black;
+}
+
+.usename-span {
+  color: black);
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 200;
+}
+
+@media (min-width: 100px) and (max-width: 300px) {
+  li {
+    height: 32vh;
+    width: 70vw;
+  }
+  .registration-heading {
+    font-size: 15px !important;
+  }
+  span {
+    font-size: 15px !important;
+  }
+}
+
+@media (min-width: 301px) and (max-width: 490px) {
+  li {
+    width: 70vw;
+  }
+
+
+}
+
+@media (min-width: 490px) and (max-width: 750px) {
+  li {
+    width: 38vw;
+    height: 36vh;
+  }
+  .registration-heading {
+    font-size: 15px !important;
+  }
+}

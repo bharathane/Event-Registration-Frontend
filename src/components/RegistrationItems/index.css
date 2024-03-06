@@ -1,0 +1,56 @@
+.registration-items-container {
+  background-image: url("https://res.cloudinary.com/dr2jqbir9/image/upload/v1709624039/abf5746d091f4ee9fc182d4f07079a17_sufa1j.jpg");
+  min-height: 100vh;
+  width: 100vw;
+  padding: 15px;
+  color: white;
+  box-sizing: border-box;
+  background-size: cover;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book-another-event {
+  font-size: 12px;
+  width: 8vw;
+  height: 6vh;
+}
+
+.buttons-container {
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.book-event-btn {
+  width: 12vw;
+  height: 6vh;
+  background-color: white;
+  color: black;
+}
+
+@media (min-width: 100px) and (max-width: 400px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .registration-items-container h1 {
+    font-size: 20px;
+    color: black;
+  }
+}
+
+@media (min-width: 450px) {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

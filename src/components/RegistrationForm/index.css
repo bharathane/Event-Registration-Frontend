@@ -1,0 +1,90 @@
+.registration-container {
+  background-image: url("https://res.cloudinary.com/dr2jqbir9/image/upload/v1709624039/abf5746d091f4ee9fc182d4f07079a17_sufa1j.jpg");
+  min-height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 50vw;
+  height: 60vh;
+}
+
+input {
+  width: 40vw;
+  height: 8vh;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: "Roboto";
+  padding: 5px;
+  font-weight: 5;
+  font-size: 20px;
+  background-color: rgb(30, 30, 41);
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+
+label {
+  font-family: "Roboto";
+  color: white;
+  font-size: 25px;
+  font-weight: 20;
+  margin: 5px;
+  margin-bottom: 8px;
+}
+button {
+  margin-top: 10px;
+  width: 10vw;
+  height: 6vh;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 10px;
+  background-color: rgb(39, 39, 70);
+}
+.phoneErrorPara {
+  color: red;
+  font-family: "Roboto";
+  font-size: 15px;
+}
+
+select {
+  width: 40vw;
+  height: 8vh;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: "Roboto";
+  padding: 5px;
+  font-weight: 5;
+  font-size: 20px;
+  background-color: rgb(30, 30, 41);
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+
+@media (min-width: 100px) and (max-width: 600px) {
+  input {
+    width: 70vw;
+    height: 7vh;
+  }
+  label {
+    font-size: 17px;
+  }
+
+  select {
+    width: 70vw;
+    height: 7vh;
+  }
+  button {
+    width: 20vw;
+    height: 8vh;
+    font-size: 10px;
+  }
+}

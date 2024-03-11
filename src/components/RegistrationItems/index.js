@@ -21,7 +21,7 @@ const RegistrationItems = () => {
   const togleUlDisplay = () => {
     setIsShowUlElement(!showUlElement);
   };
-  console.log(showUlElement);
+  
 
   return (
     <div className="registration-items-container">
